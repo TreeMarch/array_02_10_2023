@@ -24,13 +24,16 @@
             int max = ary[0];
             int min = ary[0];
             for (i = 0; i < 7 ; i++) {
-                printf("\n number at [%d] is %d ", i, ary[i]);
+                printf("\n number at [%d] is %d \n", i, ary[i]);
 
                 if (max < ary[i]) max = ary[i];
                 if (min > ary[i]) min = ary[i];
 
-                printf("\n max - %d\n", max);
-                printf("\n min - %d\n", min);
+//                printf("\n max - %d\n", max);
+//                printf("\n min - %d\n", min);
             }
+    printf("\n max - %d\n", max);
+    printf("\n min - %d\n", min);
+
 }
 //}
