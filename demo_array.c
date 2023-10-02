@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-//int demo_array(){
-    int main (){
+int demo_array(){
+//    int main (){
 //        int ary[10];
 //        int i;
 //        int total = 0;
@@ -13,6 +13,8 @@
 //        }
     int ary[7];
         int i ;
+        int total ;
+        int avarage ;
         ary [0] = 1;
         ary [1] = 6;
         ary [2] = 8;
@@ -28,12 +30,15 @@
 
                 if (max < ary[i]) max = ary[i];
                 if (min > ary[i]) min = ary[i];
+                total +=  ary[i];
 
 //                printf("\n max - %d\n", max);
 //                printf("\n min - %d\n", min);
             }
     printf("\n max - %d\n", max);
     printf("\n min - %d\n", min);
+    printf("\n total is %d\n", total);
+    printf("\n avarage is %d \n", total / 7);
 
 }
 //}
