@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-//int demo02_array(){
-    int main(){
+int demo02_array(){
+//    int main(){
         int arry[10];
         int i ;
         int total ;
