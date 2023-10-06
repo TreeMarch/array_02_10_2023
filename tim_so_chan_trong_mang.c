@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-//int tim_so_chan_trong_mang(){
-    int main(){
+int tim_so_chan_trong_mang(){
+//    int main(){
         int n ;
 
         // nhap so luong phan tu cua mang
